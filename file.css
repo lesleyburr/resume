@@ -1,0 +1,100 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*Lesley Burr's Resume Styling*/
+
+body {
+	background-color: #ffffff;
+	padding: 0px 0px 0px 0px;
+}
+header {
+	background: #f2f2f2;
+	border-bottom: 2px solid #e1e1e1;
+	margin-bottom: 48px;
+	padding: 0px 0px 0px 0px;
+}
+h1 {
+	color: #702D81;
+	font-size: 40px;
+	font-family: helvetica;
+	padding: 20px;
+}
+header p {
+	font-size: 12px;
+	padding: 0px 0px 0px 20px;
+	margin-bottom: 20px;	
+}
+h2 {
+	color: #702D81;
+	font-size: 20px;
+	font-family: helvetica;
+	padding: 5px;
+}
+h3 {
+	color: #7a7a7a;
+	font-size: 14px;
+	font-family: helvetica;
+	padding: 5px 5px 0px 5px;
+}
+p {
+	color: #000000;
+	font-size: 14px;
+	font-family: helvetica;
+	padding: 5px;
+}
+ul {
+	list-style-type: disc;
+	padding-left: 30px;
+}
+li {
+	color: #000000;
+	font-size: 14px;
+	font-family: helvetica;
+	padding-left: 5px;
+}
