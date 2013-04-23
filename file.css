@@ -47,46 +47,102 @@ table {
 	border-spacing: 0;
 }
 
-/*Lesley Burr's Resume Styling*/
+
+
+
+
+
+/*Lesley Burr's Website Styling*/
 
 body {
 	background-color: #ffffff;
 	padding: 0px 0px 0px 0px;
 }
+
+/* Header Styling */
+
 header {
-	background: #f2f2f2;
-	border-bottom: 2px solid #e1e1e1;
-	margin-bottom: 48px;
-	padding: 0px 0px 0px 0px;
+	background: #ffffff;
+	position: center;
+	width: auto;
 }
+
 h1 {
-	color: #702D81;
-	font-size: 40px;
-	font-family: helvetica;
-	padding: 20px;
+	color: #000000;
+	font-family: impact, charcoal, sans-serif;
+	font-size: 120px;
+	letter-spacing: -10px;
+	margin: 10px 0 20px 0; 
+	position: center;
+	text-align: center;
+	text-transform: uppercase;
+	width: 960px; 
 }
+
 header p {
 	font-size: 12px;
-	padding: 0px 0px 0px 20px;
-	margin-bottom: 20px;	
+	margin-bottom: 20px;
 }
+
+/* Navigation Styling */
+
+#main-menu {
+	border-bottom: 1px solid black;
+	margin-bottom: 20px;
+}
+
+#main-menu ul {
+	list-style-type: none;
+	margin: 0 0 20px 0;
+	padding: 0;
+	text-align: center;
+	word-spacing: 80px;
+}
+
+#main-menu ul li {
+	display: inline;
+	font-family: 'Atomic Age', cursive;
+	font-size: 20px;
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+a:hover {
+	background-color: black;
+	color: white;
+	font-size: 25px;
+}
+
+/* Headline Styling */
+
 h2 {
 	color: #702D81;
+	font-family: Lucida, sans-serif;
 	font-size: 20px;
-	font-family: helvetica;
-	padding: 5px;
+	padding: 5px 0;
 }
+
+/* Subheading Styling */
+
 h3 {
 	color: #7a7a7a;
+	font-family: Lucida, sans-serif;
 	font-size: 14px;
-	font-family: helvetica;
-	padding: 5px 5px 0px 5px;
+	text-transform: uppercase;
+	padding: 20px 0px 5px 0px;
 }
+
+/* General */
+
 p {
 	color: #000000;
+	font-family: Lucida, sans-serif;
 	font-size: 14px;
-	font-family: helvetica;
-	padding: 5px;
+	padding: 5px 0px 5px 0px;
 }
 ul {
 	list-style-type: disc;
@@ -94,7 +150,112 @@ ul {
 }
 li {
 	color: #000000;
-	font-size: 14px;
 	font-family: helvetica;
-	padding-left: 5px;
+	font-size: 14px;
+	line-height: 20px;
+}
+
+em {
+	font-style: italic;
+}
+
+/* Home Page About Me Summary Text Styling */
+
+#headline {
+	font-family: Lucida, sans-serif;
+	font-style: bold;
+	font-weight: 300;
+	margin: 20px 20px 0px 20px;
+	padding: 20px 0 0 0;
+	text-align: center; 
+	text-transform: uppercase;
+	width: 960px;
+	word-spacing: 20px;
+}
+
+.container {
+	float:right;
+	margin: 20px;
+	padding: 0px; 
+	width: 553px;
+}
+
+.self-summary {
+	font-family: Lucida, sans-serif;
+	font-size: 18px; 
+	font-weight: 100;
+	line-height: 30px; 
+}
+
+/* Photo Styling */
+
+img {
+	border: black solid 5px;
+	margin: 40px;
+}
+
+#photograph {
+	float: left;
+}
+
+/* Footer Styling */
+
+footer {
+	background-color: black;
+	clear: both;
+	display: block;
+	height: 50px;
+	margin: 0px;
+	padding: 0px;
+	width: auto;
+}
+
+.social-media {
+	border: none;
+	display: inline-block;
+	margin: 0px; 
+	padding: 5px; 
+}
+
+/* About Page Styling*/
+
+.experience {
+	float:left;
+	margin: 20px;
+	padding: 20px; 
+	width: 553px; 
+}
+
+.sidebar {
+	display: block; 
+	float: right;
+	margin: 20px;
+	padding: 20px; 
+	width: 327px;
+}
+
+
+
+/* Blog Styling */
+
+.blog-post {
+	float: left;
+	margin-left: 10px;
+	margin-bottom: 20px;
+	padding-left: 10px;
+	width: 553px;
+}
+
+/* Contact Page Styling*/
+
+.contact h2 {
+	padding-top: 30px;
+}
+
+.contact {
+	float: right;
+	margin: 20px;
+	padding: 30px;
+	text-align: right; 
+	width: 553px;
 }
