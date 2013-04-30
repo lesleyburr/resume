@@ -348,10 +348,20 @@ article {
 	letter-spacing: 5px;
 	line-height: 35px;
 	margin: 0 auto;
+	padding-left: 20px;
+	padding-right: 20px;
 	padding-top: 20px;
 	padding-bottom: 20px;
 	text-align: center;
 	text-shadow: 2px 2px #ffffff;
 	text-transform: uppercase;
 	width: 200px;
+}
+
+#experiments {
+	background: #ffffff;
+	border: 5px solid white;
+	margin: 0 auto;
+	padding: 30px;
+	width: 250px;
 }
