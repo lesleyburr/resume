@@ -67,9 +67,9 @@ header {
 
 h1 {
 	color: #000000;
-	font-family: futura, sans-serif;
+	font-family: 'Oswald', 'futura', helvetica, arial, sans-serif;
 	font-size: 120px;
-	letter-spacing: -25px;
+	letter-spacing: -15px;
 	margin: auto;
 	padding: 10px 0 20px 0; 
 	position: center;
@@ -95,8 +95,9 @@ h1 {
 
 #main-menu ul li {
 	display: inline;
-	font-family: 'futura', sans-serif;
+	font-family: 'Josefin Sans', 'futura', helvetica, arial, sans-serif;
 	font-size: 20px;
+	font-weight: 600;
 	text-align: center;
 }
 
@@ -116,6 +117,10 @@ a {
 	font-size: 18px;
 }
 
+.currentpage {
+	color: red;
+}
+
 a h1:hover {
 	letter-spacing: 5px;
 }
@@ -128,8 +133,9 @@ a:hover {
 /* Headline Styling */
 
 h2 {
-	font-family: 'futura', sans-serif;
+	font-family: 'Josefin Sans', 'futura', helvetica, arial, sans-serif;
 	font-size: 16px;
+	font-weight: 700;
 	letter-spacing: 2px;
 	text-transform: uppercase;
 	padding: 30px 0 0px 0;
@@ -139,8 +145,9 @@ h2 {
 
 h3 {
 	color: #000000;
-	font-family: 'futura', sans-serif;
-	font-size: 14px;
+	font-family: 'Josefin Sans', 'futura', helvetica, arial, sans-serif;
+	font-size: 16px;
+	font-weight: 600;
 	padding: 20px 0px 5px 0px;
 }
 
@@ -175,8 +182,9 @@ em {
 /* Home Page About Me Summary Text Styling */
 
 #headline {
-	font-family: 'futura', sans-serif;
+	font-family: 'Josefin Sans', 'futura', helvetica, arial, sans-serif;
 	font-size: 16px;
+	font-weight: 700;
 	letter-spacing: 2px;
 	margin: 20px 20px 0px 20px;
 	padding: 20px 0 0 0;
@@ -310,7 +318,6 @@ article {
 	padding-top: 10px;
 	text-align: center;
 	width: 200px;
-
 }
 
 .sidebar ul {
@@ -329,4 +336,22 @@ article {
 	padding: 30px;
 	text-align: right; 
 	width: 553px;
+}
+
+/* Experiments*/
+
+.finish {
+	background: #D2B48C;
+	font-family: 'Wire One', sans-serif;
+	font-size: 50px;
+	font-weight: 900;
+	letter-spacing: 5px;
+	line-height: 35px;
+	margin: 0 auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+	text-shadow: 2px 2px #ffffff;
+	text-transform: uppercase;
+	width: 200px;
 }
