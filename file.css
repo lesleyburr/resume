@@ -113,7 +113,7 @@ h1 {
 
 a {
 	text-decoration: none;
-	color: red;
+	color: #881a37;
 }
 
 .fancylink {
@@ -128,7 +128,7 @@ a {
 }
 
 .currentpage {
-	color: red;
+	color: #881a37;
 }
 
 a h1:hover {
@@ -264,13 +264,53 @@ footer {
 	width: 306px;
 }
 
+.button {
+	clear:both;
+	padding: 20px;
+	text-align: center;
+	margin: 0 auto;
+}
+
 #learnmore {
+	background-color: #f7efbe;
+	border: 2px solid #cccccc;
+	border-radius: 20px;
+	box-shadow: 2px 2px 2px #888;
 	clear: both;
 	margin: 0 auto;
-	padding-bottom: 20px;
-	padding-top: 20px;
+	padding: 10px 25px;
 	text-align: center;
-	width: auto;
+	width: 300px;
+}
+
+#learnmore p {
+	font-family: 'Josefin Sans', 'futura', helvetica, arial, sans-serif;
+	font-size: 20px;
+	font-weight: 900;
+}
+
+#learnmore:hover {
+	background-image: url(flowersbw.jpg);
+	border: 2px solid #f7efbe;
+	border-radius: 20px;
+	clear: both;
+	margin: 0 auto;
+	padding: 10px 25px;
+	text-align: center;
+	width: 300px;
+}
+
+#learnmore p:hover {
+	font-family: 'Monoton', cursive;
+	font-size: 13px;
+}
+
+.buttonlink {
+	text-decoration: none;
+}
+
+.buttonlink:hover {
+	background-color: white;
 }
 
 /* Blog Styling */
@@ -314,7 +354,6 @@ article {
 	clear: both;
 }
 
-
 .sidebar {
 	border: 1px solid black;
 	float: left;
@@ -332,6 +371,51 @@ article {
 
 .sidebar ul {
 	list-style-type: none;
+}
+
+.blogbutton {
+	clear:both;
+	padding: 0px;
+}
+
+#readmore {
+	background-color: #f7efbe;
+	border: 2px solid #cccccc;
+	border-radius: 20px;
+	box-shadow: 1px 1px 2px #888;
+	clear: both;
+	padding: 3px 3px;
+	width: 100px;
+}
+
+#readmore p {
+	font-family: 'Josefin Sans', 'futura', helvetica, arial, sans-serif;
+	font-size: 14px;
+	font-weight: 900;
+}
+
+#readmore:hover {
+	background-image: url(flowersbw.jpg);
+	border: 2px solid #f7efbe;
+	border-radius: 20px;
+	clear: both;
+	margin: 0 auto;
+	padding: 3px 3px;
+	text-align: center;
+	width: 100px;
+}
+
+#readmore p:hover {
+	font-family: 'Monoton', cursive;
+	font-size: 10px;
+}
+
+.blogbuttonlink {
+	text-decoration: none;
+}
+
+.blogbuttonlink:hover {
+	background-color: white;
 }
 
 /* Contact Page Styling*/
@@ -372,6 +456,26 @@ article {
 	background: #ffffff;
 	border: 5px solid white;
 	margin: 0 auto;
-	padding: 30px;
+	padding: 20px;
 	width: 250px;
+}
+
+#spacecontainer {
+	clear: both;
+	margin: 0 auto;
+	padding: 20px 90px;
+	width: auto;
+}
+
+#outerspace {
+  	background: url('homeboys-in-outer-space.png') no-repeat 380px 18px, 
+    			url('unicorn.png') no-repeat 0 50%, 
+    			url('bear.png') no-repeat 480px 75%,
+    			url('outer-space-vol1.png') no-repeat 0 0;
+  	height: 700px;
+  	width: auto;
+}
+
+.experimentscopy {
+	text-align: center;
 }
