@@ -65,13 +65,22 @@ header {
 	border-bottom: 1px solid black;
 }
 
+.triangle{
+	width: auto;
+	height: 0px;
+	border-style: solid;
+	border-width: 0 150px 160px 150px;
+	border-color: transparent transparent #f7efbe transparent;
+	background-image: url(flowersbw.jpg);
+}
+
 h1 {
 	color: #000000;
 	font-family: 'Oswald', 'futura', helvetica, arial, sans-serif;
 	font-size: 120px;
 	letter-spacing: -15px;
 	margin: auto;
-	padding: 10px 0 20px 0; 
+	padding: 10px 0 10px 0; 
 	position: center;
 	text-align: center;
 	text-transform: uppercase;
@@ -81,14 +90,15 @@ h1 {
 /* Navigation Styling */
 
 #main-menu {
-	margin-bottom: 20px;
-	margin-top: 10px;
+	background-image: url(flowersbw.jpg);
+	margin-bottom: 0px;
+	margin-top: 0px;
 }
 
 #main-menu ul {
 	list-style-type: none;
-	margin: 0 0 20px 0;
-	padding: 0;
+	margin: 0 0 0px 0;
+	padding: 20px;
 	text-align: center;
 	word-spacing: 80px;
 }
@@ -97,7 +107,7 @@ h1 {
 	display: inline;
 	font-family: 'Josefin Sans', 'futura', helvetica, arial, sans-serif;
 	font-size: 20px;
-	font-weight: 600;
+	font-weight: 900;
 	text-align: center;
 }
 
@@ -197,7 +207,7 @@ em {
 .container {
 	background: #ffffff;
 	float:left;
-	margin: 20px 20px 20px 50px;
+	margin: 20px 20px 20px 70px;
 	padding: 0px; 
 	width: 553px;
 }
@@ -212,7 +222,7 @@ em {
 
 #photograph {
 	float: left;
-	margin: 20px 40px 20px 50px;
+	margin: 5px 40px 20px 10px;
 	width: 350px;
 }
 
