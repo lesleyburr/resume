@@ -266,30 +266,20 @@ footer {
 
 .button {
 	clear:both;
-	padding: 20px;
 	text-align: center;
 	margin: 0 auto;
-}
-
-#learnmore {
 	background-color: #f7efbe;
 	border: 2px solid #cccccc;
 	border-radius: 20px;
 	box-shadow: 2px 2px 2px #888;
-	clear: both;
-	margin: 0 auto;
 	padding: 10px 25px;
-	text-align: center;
 	width: 300px;
-}
-
-#learnmore p {
 	font-family: 'Josefin Sans', 'futura', helvetica, arial, sans-serif;
 	font-size: 20px;
 	font-weight: 900;
 }
 
-#learnmore:hover {
+.button:hover {
 	background-image: url(flowersbw.jpg);
 	border: 2px solid #f7efbe;
 	border-radius: 20px;
@@ -298,19 +288,18 @@ footer {
 	padding: 10px 25px;
 	text-align: center;
 	width: 300px;
-}
-
-#learnmore p:hover {
 	font-family: 'Monoton', cursive;
 	font-size: 13px;
 }
 
 .buttonlink {
 	text-decoration: none;
+	color: black;
 }
 
 .buttonlink:hover {
 	background-color: white;
+	color: black;
 }
 
 /* Blog Styling */
