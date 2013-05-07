@@ -265,18 +265,18 @@ footer {
 }
 
 .button {
-	clear:both;
-	text-align: center;
-	margin: 0 auto;
 	background-color: #f7efbe;
 	border: 2px solid #cccccc;
 	border-radius: 20px;
 	box-shadow: 2px 2px 2px #888;
-	padding: 10px 25px;
-	width: 300px;
+	clear:both;
 	font-family: 'Josefin Sans', 'futura', helvetica, arial, sans-serif;
 	font-size: 20px;
 	font-weight: 900;
+	margin: 0 auto;
+	padding: 10px 25px;
+	text-align: center;
+	width: 300px;
 }
 
 .button:hover {
@@ -288,13 +288,12 @@ footer {
 	padding: 10px 25px;
 	text-align: center;
 	width: 300px;
-	font-family: 'Monoton', cursive;
-	font-size: 13px;
 }
 
 .buttonlink {
-	text-decoration: none;
 	color: black;
+	margin: 10px;
+	text-decoration: none;
 }
 
 .buttonlink:hover {
@@ -392,11 +391,6 @@ article {
 	padding: 3px 3px;
 	text-align: center;
 	width: 100px;
-}
-
-#readmore p:hover {
-	font-family: 'Monoton', cursive;
-	font-size: 10px;
 }
 
 .blogbuttonlink {
