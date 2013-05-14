@@ -446,8 +446,8 @@ article {
 #spacecontainer {
 	clear: both;
 	margin: 0 auto;
-	padding: 20px 90px;
-	width: auto;
+	padding: 20px 0;
+	width: 960px;
 }
 
 #outerspace {
@@ -456,9 +456,101 @@ article {
     			url('bear.png') no-repeat 480px 75%,
     			url('outer-space-vol1.png') no-repeat 0 0;
   	height: 700px;
-  	width: auto;
+  	margin: 0 auto;
+  	width: 960px;
 }
 
 .experimentscopy {
 	text-align: center;
+}
+
+.calendar {
+	border: 1px solid #cccccc;
+	border-radius: 5px;
+	margin: 0 auto;
+	width: 352px;
+}
+
+.monthnavleft {
+	background: #1E90FF url('arrowleft.png') 50% 50% no-repeat;
+	border: 1px solid #cccccc;
+	border-top-left-radius: 5px;
+	float: left;
+	height: 38px;
+	padding: 10px;
+	width: 40px;
+}
+
+#left {
+	background: #1E90FF url('arrowleft.png') 50% 50% no-repeat;
+}
+
+h4 {
+	background: linear-gradient(#60AFFE, #1E90FF, #1C86EE);
+	border: 1px solid #cccccc;
+	float: left;
+	font-family: helvetica, arial, sans-serif;
+	font-size: 16px;
+	padding: 10px 20px;
+	text-align: center;
+	width: 230px;
+}
+
+.monthnavright {
+	background: #1E90FF url('arrowright.png') 50% 50% no-repeat;
+	border: 1px solid #cccccc;
+	border-top-right-radius: 5px;
+	float: left;
+	height: 38px;
+	padding: 10px;
+	width: 40px;
+}
+
+.box:before,
+.box:after {
+  content: "";
+  display: table;
+}
+.box:after {
+  clear: both;
+}
+.box {
+  *zoom: 1;
+}	
+
+#weekdays {
+	background-color: #F0F0F0;
+	border-left: 1px solid #cccccc;
+	border-right: 1px solid #cccccc;
+	border-bottom: 1px solid #cccccc;
+	width: 350px;
+}
+
+#weekdays ol li {
+	clear: both;
+	display: inline; 
+	font-size: 12px;
+	padding: 10px 19px;
+	text-align: center;
+}
+
+#dates {
+	background-color: #F7F7F7;
+	border-left: 1px solid #cccccc;
+	border-right: 1px solid #cccccc;
+	height: 280px;
+	width: 350px;
+}
+
+#dates ol li {
+	border: 1px solid #cccccc;
+	clear: both;
+	display: inline; 
+	line-height: 56px;
+	padding: 18px 13px;
+	text-align: center;
+}
+
+#dates li {
+	font-size: 16px;
 }
