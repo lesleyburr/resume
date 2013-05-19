@@ -77,10 +77,10 @@ header {
 h1 {
 	color: #000000;
 	font-family: 'Oswald', 'futura', helvetica, arial, sans-serif;
-	font-size: 120px;
+	font-size: 100px;
 	letter-spacing: -15px;
 	margin: auto;
-	padding: 10px 0 10px 0; 
+	padding: 25px 0 10px 0; 
 	position: center;
 	text-align: center;
 	text-transform: uppercase;
@@ -148,7 +148,7 @@ h2 {
 	font-weight: 700;
 	letter-spacing: 2px;
 	text-transform: uppercase;
-	padding: 30px 0 0px 0;
+	padding: 30px 0 10px 0;
 }
 
 /* Subheading Styling */
@@ -465,9 +465,12 @@ article {
 }
 
 .calendar {
+	background-color: #F2FFB8;
 	border: 1px solid #cccccc;
 	border-radius: 5px;
+	height: 280px;
 	margin: 0 auto;
+	padding: 10px;
 	width: 352px;
 }
 
@@ -506,27 +509,28 @@ h4 {
 	width: 40px;
 }
 
-.box:before,
-.box:after {
+.clearfix:before,
+.clearfix:after {
   content: "";
   display: table;
 }
-.box:after {
+.clearfix:after {
   clear: both;
 }
-.box {
+.clearfix {
   *zoom: 1;
 }	
 
-#weekdays {
+#week {
 	background-color: #F0F0F0;
 	border-left: 1px solid #cccccc;
 	border-right: 1px solid #cccccc;
 	border-bottom: 1px solid #cccccc;
+	list-style-type: none;
 	width: 350px;
 }
 
-#weekdays ol li {
+#week li {
 	clear: both;
 	display: inline; 
 	font-size: 12px;
@@ -536,21 +540,17 @@ h4 {
 
 #dates {
 	background-color: #F7F7F7;
-	border-left: 1px solid #cccccc;
-	border-right: 1px solid #cccccc;
-	height: 280px;
-	width: 350px;
-}
-
-#dates ol li {
-	border: 1px solid #cccccc;
-	clear: both;
-	display: inline; 
-	line-height: 56px;
-	padding: 18px 13px;
-	text-align: center;
 }
 
 #dates li {
+	background-color: #F7F7F7;
+	border: 1px solid #cccccc;
+	display: inline; 
+	float: left;
 	font-size: 16px;
+	height: 30px;
+	list-style-type: none;
+	padding-top: 12px;
+	text-align: center;
+	width: 48.29px;
 }
