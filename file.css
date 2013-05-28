@@ -236,7 +236,7 @@ img {
 	float: left;
 }
 
-/* Footer Styling */
+/* Footer Styling, needs work, added image sprite */
 
 footer {
 	background-color: black;
@@ -248,11 +248,33 @@ footer {
 	width: auto;
 }
 
+.footericons {
+	display: inline-block;
+	list-style-type: none;
+	margin: 0 auto;
+	text-align: center;
+}
+
 .social-media {
 	border: none;
 	display: inline-block;
-	margin: 0px; 
-	padding: 5px; 
+	margin: 0 auto;
+}
+
+#email {
+	position: relative;
+}
+
+#linkedin {
+	position: relative;
+}
+
+#twitter {
+	position: relative;
+}
+
+#git {
+	position: relative;
 }
 
 /* About Page Styling*/
@@ -415,6 +437,23 @@ article {
 	width: 553px;
 }
 
+.contactform {
+	border: 1px solid black;
+	float: left;
+	margin:60px 30px;
+	padding: 20px;
+	text-align: left;
+	width: 300px;
+}
+
+label {
+	color: #881a37;
+	display: block;
+	font-family: helvetica, arial, sans-serif;
+	font-size: 12px;
+	margin-top: 20px;
+}
+
 /* Experiments*/
 
 .finish {
@@ -464,10 +503,13 @@ article {
 	text-align: center;
 }
 
+.emptyspace {
+	margin-bottom: 50px;
+}
+
 .calendar {
 	background-color: #F2FFB8;
 	border: 1px solid #cccccc;
-	border-radius: 5px;
 	height: 280px;
 	margin: 0 auto;
 	padding: 10px;
@@ -484,13 +526,17 @@ article {
 	width: 40px;
 }
 
+/*
 #left {
 	background: #1E90FF url('arrowleft.png') 50% 50% no-repeat;
+	border-top-left-radius: 5px;
 }
+*/
 
 h4 {
 	background: linear-gradient(#60AFFE, #1E90FF, #1C86EE);
 	border: 1px solid #cccccc;
+	color: #ffffff;
 	float: left;
 	font-family: helvetica, arial, sans-serif;
 	font-size: 16px;
@@ -521,7 +567,7 @@ h4 {
   *zoom: 1;
 }	
 
-#week {
+.week {
 	background-color: #F0F0F0;
 	border-left: 1px solid #cccccc;
 	border-right: 1px solid #cccccc;
@@ -530,21 +576,23 @@ h4 {
 	width: 350px;
 }
 
-#week li {
+.week li {
 	clear: both;
+	color: #686868;
 	display: inline; 
 	font-size: 12px;
 	padding: 10px 19px;
 	text-align: center;
 }
 
-#dates {
+.dates {
 	background-color: #F7F7F7;
 }
 
-#dates li {
+.dates li {
 	background-color: #F7F7F7;
 	border: 1px solid #cccccc;
+	color: #686868;
 	display: inline; 
 	float: left;
 	font-size: 16px;
@@ -553,4 +601,35 @@ h4 {
 	padding-top: 12px;
 	text-align: center;
 	width: 48.29px;
+}
+
+#previous {
+	color: #cccccc;
+}
+
+#colorednumerals {
+	color: #1E90FF;
+}
+
+#coloredbackground {
+	background: linear-gradient(#60AFFE, #1E90FF, #1C86EE);
+	color: #fff;
+}
+
+.circle {
+	background: #66CD00;
+	border-radius: 90px;
+	display: block;
+	height: 5px;
+	margin-left: 22px;
+	width: 5px; 
+}
+
+.circle2 {
+	background: #ffffff;
+	border-radius: 90px;
+	display: block;
+	height: 5px;
+	margin-left: 22px;
+	width: 5px; 
 }

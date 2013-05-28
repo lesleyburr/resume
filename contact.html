@@ -25,6 +25,24 @@
         </nav>
     </header>
 
+<form class="contactform">
+    <label for="name">Name</label>
+        <input type="text" name="name" id="name" required>
+    <label for="emailaddress">Email</label>    
+        <input type="email" name="emailaddress" id="email" required>
+    <label for="website">Website URL</label>
+        <input type="url" name="website" id="website">
+    <label for="why">Reason for contacting me</label>
+        <select name="why" id="why">
+            <option value="work" selected>I want to work with you.</option>
+            <option value="question">I have a question for you.</option>
+            <option value="comment">I just want to chat.</option>
+        </select>
+    <label for="message">I would like to hear from you</label>
+        <textarea name="message" id="message">Message me.</textarea>
+    <input type="submit" name="submit" value="Submit">
+</form>
+
 <div class="contact">
     <h2>Personal</h2>
         <p><a href="mailto:burrl@bc.edu">burrl@bc.edu</a></p>

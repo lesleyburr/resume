@@ -43,12 +43,13 @@
 
     <h2 class="experimentscopy">Lists: Re-creating a Calendar</h2>
 
-<section class="calendar">
+<div class="emptyspace">
+    <section class="calendar">
     <button class="monthnavleft clearfix"></button>
         <h4>August 2013</h4>
     <button class="monthnavright clearfix"></button>
 
-        <ol id="week">
+        <ol class="week">
             <li>S</li>
             <li>M</li>
             <li>T</li>
@@ -58,24 +59,24 @@
             <li>S</li>
         </ol>
 
-        <ol id="dates">
-            <li>28</li>
-            <li>29</li>
-            <li>30</li>
-            <li>31</li>
+        <ol class="dates">
+            <li id="previous">28</li>
+            <li id="previous">29</li>
+            <li id="previous">30</li>
+            <li id="previous">31</li>
             <li>1</li>
             <li>2</li>
             <li>3</li>
             <li>4</li>
             <li>5</li>
             <li>6</li>
-            <li>7</li>
+            <li>7<div class="circle"></div></li>
             <li>8</li>
             <li>9</li>
             <li>10</li>
             <li>11</li>
-            <li>12</li>
-            <li>13</li>
+            <li id="colorednumerals">12<div class="circle"></div></li>
+            <li>13<div class="circle"></div></li>
             <li>14</li>
             <li>15</li>
             <li>16</li>
@@ -86,7 +87,7 @@
             <li>21</li>
             <li>22</li>
             <li>23</li>
-            <li>24</li>
+            <li id="coloredbackground">24<div class="circle2"></div></li>
             <li>25</li>
             <li>26</li>
             <li>27</li>
@@ -96,13 +97,26 @@
             <li>31</li>
         </ol>
 
-</section>
+    </section>
+</div>
+
+<!-- Footer needs work, insert image sprite but not done -->
 
 <footer>
-        <a href="mailto:burrl@bc.edu"><img src="emailicon.jpg" alt="email" class="social-media"></a>
-        <a href="http://www.linkedin.com/pub/lesley-burr/23/14/604"><img src="linkedinicon.jpg" alt="linkedin" class="social-media"></a>
-        <a href="http://twitter.com/lesbabyles"><img src="twittericon.jpg" alt="twitter" class="social-media"></a>
-        <a href="http://lesleyburr.github.io/resume/index.html"><img src="octocat.jpg" alt="github" class="social-media"></a>
+        <ul>
+            <li class="footericons">
+                <a href="mailto:burrl@bc.edu"><img src="socialmediasprite.png" alt="email" class="social-media" id="email"></a>
+            </li>
+            <li class="footericons">
+                <a href="http://www.linkedin.com/pub/lesley-burr/23/14/604"><img src="socialmediasprite.png" alt="linkedin" class="social-media" id="linkedin"></a>
+            </li>
+            <li class="footericons">
+                <a href="http://twitter.com/lesbabyles"><img src="socialmediasprite.png" alt="twitter" class="social-media" id="twitter"></a>
+            </li>
+            <li class="footericons">
+                <a href="http://lesleyburr.github.io/resume/index.html"><img src="socialmediasprite.png" alt="github" class="social-media" id="git"></a>
+            </li>
+        </ul>
     </footer>
 
     </body>
