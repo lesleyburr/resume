@@ -191,3 +191,77 @@ img {
 	margin-right: 75px;
 	padding: 3px 35px;
 }
+
+
+/* Footer Styling, needs work, added image sprite */
+
+footer {
+	background-color: black;
+	clear: both;
+	display: block;
+	height: 50px;
+	margin: 0 auto;
+	text-align: center;
+	width: auto;
+}
+
+.footericons {
+	display: inline-block;
+	list-style-type: none;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.social-media {
+	border: none;
+	display: inline-block;
+	margin: 0 auto;
+}
+
+#email {
+	position: relative;
+}
+
+#linkedin {
+	position: relative;
+}
+
+#twitter {
+	position: relative;
+}
+
+#git {
+	position: relative;
+}
+
+
+/* Contact Page Styling*/
+
+.contact h2 {
+	padding-top: 30px;
+}
+
+.contact {
+	float: right;
+	margin: 20px;
+	padding: 30px;
+	text-align: right; 
+	width: 553px;
+}
+
+.contactform {
+	border: 1px solid black;
+	float: left;
+	margin:60px 30px;
+	padding: 20px;
+	text-align: left;
+	width: 300px;
+}
+
+label {
+	color: #881a37;
+	display: block;
+	font-family: helvetica, arial, sans-serif;
+	font-size: 12px;
+	margin-top: 20px;
+}
