@@ -120,6 +120,7 @@ header {
 	background-color: #f44f2f;
 	font-family: 'Signika', sans-serif;
 	height: 100px;
+	position: fixed;
 	width: 100%;
 }
 
@@ -149,6 +150,7 @@ p {
 
 .burr {
 	background-color: #d3c5bb;
+	position: fixed;
 }
 
 .rotate {
@@ -156,7 +158,7 @@ p {
 	font-family: 'Signika', sans-serif;
 	font-size: 220px;
 	font-weight: 700;
-	position: absolute;
+	position: fixed;
 	left: -250px;
 	text-transform: uppercase;
 	-webkit-transform: rotate(90deg);
@@ -169,7 +171,7 @@ p {
 
 section {
 	margin-left: 200px;
-	margin-top: 50px;
+	padding-top: 170px;
 }
 
 h3 {
@@ -190,4 +192,8 @@ img {
 	margin-bottom: 10px;
 	margin-right: 75px;
 	padding: 3px 35px;
+}
+
+.test {
+	clear: both;
 }
